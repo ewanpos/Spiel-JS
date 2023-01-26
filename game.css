@@ -1,0 +1,62 @@
+.playground {
+  width: 1800px;
+  height: 800px;
+  background-image: url(/Textures/bg_v2.png);
+  background-size: contain;
+}
+.player {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+}
+.steintop {
+  position: absolute;
+  width: 7.5%;
+  height: 20%;
+}
+.steinbottom {
+  position: absolute;
+  width: 7.5%;
+  height: 20%;
+}
+.alien {
+  position: absolute;
+  width: 100px;
+  height: 200px;
+  margin-top: 250px;
+}
+.button {
+  top: 45%;
+  left: 23%;
+  padding: 2%;
+  font-family: "montserrat";
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 200%;
+  color: black;
+  position: absolute;
+  width: 50%;
+  text-decoration: none;
+  background-color: lightgray;
+  border-radius: 20px;
+}
+.button:hover {
+  top: 45%;
+  left: 23%;
+  padding: 2%;
+  font-family: "montserrat";
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 200%;
+  color: black;
+  position: absolute;
+  width: 50%;
+  text-decoration: none;
+  background-color: darkgray;
+  border-radius: 20px;
+}
+.win {
+  width: 100%;
+  background-image: url(/Textures/win.png);
+  background-size: contain;
+}
