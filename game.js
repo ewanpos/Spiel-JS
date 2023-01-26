@@ -52,14 +52,14 @@ function loop() {
   if (timer.ready()) {
     if (positionBottom) {
       let h = document.createElement("img");
-      h.src = "/Textures/object.png";
+      h.src = "Textures/object.png";
       h.className = "steinbottom";
       h.style.top = "50px";
       h.style.left = 800 + Math.floor(Math.random() * 500) + "%";
       spielfeld.appendChild(h);
     } else if (positiontop) {
       let h = document.createElement("img");
-      h.src = "/Textures/object.png";
+      h.src = "Textures/object.png";
       h.className = "steintop";
       h.style.bottom = "118px";
       h.style.left = 800 + Math.floor(Math.random() * 500) + "%";
@@ -87,16 +87,16 @@ function loop() {
   window.requestAnimationFrame(loop);
   //Kollision
   if (anyCollision(spieler, steinetop)) {
-    location.replace("/gameover.html");
+    location.replace("gameover.html");
     punkteAnzeige.textContent = "100";
   }
   if (anyCollision(spieler, steinebottom)) {
-    location.replace("/gameover.html");
+    location.replace("gameover.html");
     punkteAnzeige.textContent = "100";
   }
   //Gewinnen
   if (parseInt(punkteAnzeige.textContent) == 0) {
-    location.replace("/gewinner.html");
+    location.replace("gewinner.html");
     punkteAnzeige.textContent = "100";
   }
 }
