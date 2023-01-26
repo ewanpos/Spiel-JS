@@ -1,7 +1,7 @@
 .playground {
   width: 1800px;
   height: 800px;
-  background-image: url(/Textures/bg_v2.png);
+  background-image: url(Textures/bg_v2.png);
   background-size: contain;
 }
 .player {
@@ -57,6 +57,6 @@
 }
 .win {
   width: 100%;
-  background-image: url(/Textures/win.png);
+  background-image: url(Textures/win.png);
   background-size: contain;
 }
